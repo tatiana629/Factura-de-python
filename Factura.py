@@ -17,7 +17,7 @@
 def empresan():
     materiales= int(input("¿Cuantos materiales llevará? "))
     suma=0
-    cont=0
+    cont=a
     while materiales >= 1:
         materiales=materiales-1
         precio= int(input("¿Cuál es el precio del material? "))
