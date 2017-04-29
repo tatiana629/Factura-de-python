@@ -5,8 +5,8 @@ from tkinter import *
 ventana=Tk()
 ventana.geometry("350x170+200+200")
 ventana.title("acceso")
-usuario=Label(text="Usuario:",fg="blue",font=("Baskerville Old Face",15)).grid(row=0,column=0,sticky=W)
-password=Label(text="Contraseña:", fg="blue",font=("Baskerville Old Face",15)).grid(row=1,column=0)
+usuario=Label(text="Usuario:",fg="pink",font=("Baskerville Old Face",15)).grid(row=0,column=0,sticky=W)
+password=Label(text="Contraseña:", fg="blue",font("Baskerville Old Face",15)).grid(row=1,column=0)
 entradauser=StringVar()
 
 entradapass=StringVar()
